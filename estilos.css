@@ -187,9 +187,15 @@ body
 #contenido .item 
     {
     
-    width: 50%;
+    width: 48%;
      float: left;
     
+    
     }
+    #contenido .item:nth-child(odd)
+    {
+   margin-right: 2%;
+    }
+
 
 }
