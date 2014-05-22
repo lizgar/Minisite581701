@@ -170,5 +170,26 @@ text-align: center;
 padding: 1em;
 }
 
-fist child
-last child
+
+@media screen and (min-width:800px)
+{
+body
+    {
+    background-color: blue;
+    
+    }
+    
+#contenido
+    {
+    overflow: hidden;
+    
+    }
+#contenido .item 
+    {
+    
+    width: 50%;
+     float: left;
+    
+    }
+
+}
