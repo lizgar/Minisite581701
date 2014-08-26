@@ -53,6 +53,7 @@ background: #63bcb8;
 padding: 0 0.5em;
 position: relative;
 box-shadow: rgba(0,0,0,0.5) 2px 2px 10px;
+
 }
 nav ul
 {
@@ -92,6 +93,21 @@ text-decoration: none;
 padding:0.5em 0;
 display: block;
 
+}
+.icon-close
+{
+	cursor:pointer;
+	padding-left: 10px;
+	padding-top: 10px;	
+}
+
+.icon-menu
+{
+	color:#fff;
+	cursor:pointer;
+	font-size:16px;
+	padding:0 15px 0 0;
+	height:100%;
 }
 
 #contenido
@@ -178,6 +194,15 @@ body
     background-color: blue;
     
     }
+nav
+    {
+		background:#000 repeat left top;
+		left: -285px;
+		height: 100%;
+		position: fixed;
+		width: 258px;
+	}
+
     
 #contenido
     {
@@ -196,6 +221,8 @@ body
     {
    margin-right: 2%;
     }
+	
+	
 
 
 }
